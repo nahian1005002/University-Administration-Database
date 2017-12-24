@@ -1,0 +1,11 @@
+//write procedure triger relating to deleteing teacher/employee and officer,change addtional_responsibility.
+// dependent - insert(name,date of birth,relation,oid);
+// medicalrecord- insert(oid,recorddate,descriptoin);
+//designation - insert(officename,designation,salary grade,officetelephone,roomno)
+//promote - call procedure promote(oid,office,designation,date(optional))
+//takeleave-insert(t_id,leaveid,date(optional))
+//rejoin-update teacher_leave(t_id,date(optional))
+
+
+select to_date('1-mar-2014')-to_date('1-mar-2001') from dual;
+select floor(months_between(date '2012-10-11', date '2011-10-10') /12) from dual;
